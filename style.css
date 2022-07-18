@@ -1,0 +1,220 @@
+html { height: 100% 
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #0a0a0a 16.62%, #4065b9 85.61%);
+    color: white;
+}
+
+* {
+    border: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid #f1f1f118;
+}
+
+#header-items a:hover {
+    text-shadow: 0 0 1em whitesmoke;
+}
+
+
+#header-title {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 37px;
+}
+
+#header-items {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-right: 60px;
+    font-size: 20px;
+    gap: 54px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main_content {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    padding: 90px;
+    font-family: 'Archivo', sans-serif;
+    margin-bottom: 113px;
+}
+
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bemvindo {
+    margin-bottom: -10px;
+    font-size: 44px;
+}
+
+.inscreva-se {
+    font-size: 24px;
+}
+
+.content-box {
+    height: 5px;
+    width: 50px;
+    }
+
+form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+#content-box {
+    height: 40px;
+    width: 220px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+#content-buttom {
+    border-radius: 20%;
+    height: 34px;
+    width: 70px;
+    margin: auto;
+    font-size: large;
+
+}
+
+#content-buttom:hover {
+    box-shadow: 0 0 1em whitesmoke;
+}
+
+img {
+    width: auto;
+    height: auto;
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.footer {
+    border-top: 1px solid #f1f1f118;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Archivo', sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    font-size: 13px;
+}
+
+footer a img{
+    width: 60px;
+    height: 60px;
+}
+
+#footer_text {
+    text-align: center;
+}
+
+#footer_links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Start - Styles in the about page. */
+
+#titulo_autor {
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    font-size: 34px;
+    margin-top: 50px;
+}
+
+#main_autor {
+    display: flex;
+    gap: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagem_autor {
+    min-width: 300px;
+    min-height: 300px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#texto_autor {
+    font-family: 'Archivo', sans-serif;
+    font-size: 24px;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End - Styles in the about page. */
+
+
+@media screen and (max-width: 1200px) {
+    
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #header-items {
+        margin-left: 82px;
+    }
+
+    .main_img {
+        display: none;
+    } 
+
+    #main_autor {
+        display: flex;
+        flex-direction: column;
+}
+
+@media screen and (max-width: 113px) {
+    h1 {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
